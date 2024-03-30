@@ -17,3 +17,9 @@
       }, false)
     })
   })()
+
+
+  function toggleMenu() {
+    let mycontainer = document.querySelector('.mycontainer');
+    mycontainer.classList.toggle('mycontainerboilerplate');
+  }

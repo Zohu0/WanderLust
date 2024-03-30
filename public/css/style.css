@@ -123,3 +123,17 @@ body{
 }
 
 
+/* hamburger */
+.mycontainerboilerplate{
+    padding-top: 110px;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    .edit-btn, .book-btn{
+    width: 60px;
+}
+    .delete-btn{
+    width: 72px;
+    }
+}
